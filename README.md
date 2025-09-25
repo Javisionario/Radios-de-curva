@@ -88,4 +88,4 @@ If enabled, curve centers are also computed and then clustered based on proximit
 ---
 
 ## 📄 License
-This project is released under the **MIT License**. Feel free to use, modify, and share.  
+This project is released under the **GNU General Public License v3.0**. Feel free to use, modify, and share.  
