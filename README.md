@@ -59,7 +59,7 @@ If enabled, curve centers are also computed and then clustered based on proximit
    - Load the script into your QGIS environment.  
 
 📸 Example of the installation step:  
-![Installation screenshot](images/instalar_script.png)
+![Installation screenshot](https://github.com/Javisionario/Radios-de-curva/blob/images/instalar_script.png)
 
 3. The algorithm will appear at your Processing Toolbox under the group: **Script → Analisis de linea → Extraer curvas y centroides**.  
 
@@ -71,7 +71,8 @@ If enabled, curve centers are also computed and then clustered based on proximit
 [Script window](https://github.com/Javisionario/Radios-de-curva/blob/images/Ventana.png)
 
 **Resulting curves and centroids:**  
-![Example output](Ejemplo.png)
+[Example output](https://github.com/Javisionario/Radios-de-curva/blob/images/Ejemplo.png)
+
 
 ---
 
