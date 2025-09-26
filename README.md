@@ -68,7 +68,7 @@ If enabled, curve centers are also computed and then clustered based on proximit
 ## 🖼️ Example
 
 **Script window:**  
-![Script window](images/Ventana.png)
+![Script window](Ventana.png)
 
 **Resulting curves and centroids:**  
 ![Example output](Ejemplo.png)
