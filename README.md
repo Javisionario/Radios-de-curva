@@ -3,6 +3,9 @@
 ## 📌 Description
 This QGIS Processing script **extracts curve segments from a densified line layer**, calculates their radius of curvature, optionally groups nearby curve centers, and produces up to **two output layers**:
 
+**Resulting curves:**  
+![Example output](https://github.com/Javisionario/Radios-de-curva/blob/images/Ejemplo.png)
+
 - **Curves layer**  
   Each feature represents a curve segment with attributes:  
   - `ID_Curva`: unique ID for the curve segment  
@@ -25,7 +28,10 @@ This QGIS Processing script **extracts curve segments from a densified line laye
 - **Maximum radius (m)**: Exclude curves flatter than this threshold (default: `50.0`).  
 - **Minimum distance between vertices (m)**: Skip triplets where vertices are too close (default: `0.5`).  
 - **Generate centroid layer (boolean)**: If enabled, produces a second point layer with curve centers (default: `False`).  
-- **Cluster distance (m)**: Maximum distance for grouping curve centers into the same cluster (default: `10.0`).  
+- **Cluster distance (m)**: Maximum distance for grouping curve centers into the same cluster (default: `10.0`).
+
+**Script window:**  
+![Script window](https://github.com/Javisionario/Radios-de-curva/blob/images/Ventana.png)
 
 ---
 
@@ -70,8 +76,7 @@ If enabled, curve centers are also computed and then clustered based on proximit
 **Script window:**  
 ![Script window](https://github.com/Javisionario/Radios-de-curva/blob/images/Ventana.png)
 
-**Resulting curves and centroids:**  
-![Example output](https://github.com/Javisionario/Radios-de-curva/blob/images/Ejemplo.png)
+
 
 
 ---
