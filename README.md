@@ -71,16 +71,6 @@ If enabled, curve centers are also computed and then clustered based on proximit
 
 ---
 
-## 🖼️ Example
-
-**Script window:**  
-![Script window](https://github.com/Javisionario/Radios-de-curva/blob/images/Ventana.png)
-
-
-
-
----
-
 ## ✅ Typical Use Cases
 - Road safety studies: detecting tight bends.  
 - Geometric road design checks.  
