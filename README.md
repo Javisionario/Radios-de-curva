@@ -68,7 +68,7 @@ If enabled, curve centers are also computed and then clustered based on proximit
 ## 🖼️ Example
 
 **Script window:**  
-![Script window]([Ventana.png](https://github.com/Javisionario/Radios-de-curva/blob/images/Ventana.png))
+![Script window]([Ventana.png](https://github.com/Javisionario/Radios-de-curva/blob/images/Ventana.png)
 
 **Resulting curves and centroids:**  
 ![Example output](Ejemplo.png)
