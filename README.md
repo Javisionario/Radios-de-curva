@@ -3,7 +3,7 @@
 ## 📌 Description
 This QGIS Processing script **extracts curve segments from a densified line layer**, calculates their radius of curvature, optionally groups nearby curve centers, and produces up to **two output layers**:
 
-**Resulting curves:**  
+**Resulting curves and centroids:**  
 ![Example output](https://github.com/Javisionario/Radios-de-curva/blob/images/Ejemplo.png)
 
 - **Curves layer**  
