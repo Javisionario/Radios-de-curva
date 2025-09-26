@@ -52,19 +52,33 @@ If enabled, curve centers are also computed and then clustered based on proximit
 
 ---
 
+## 🚀 Installation
+1. Save the script file (e.g., `extraer_curvas_centroides.py`).  
+2. In QGIS:  
+   - Open **Processing Toolbox → Scripts → Add Script to Toolbox**.  
+   - Load the script into your QGIS environment.  
+
+📸 Example of the installation step:  
+![Installation screenshot](images/instalar_script.png)
+
+3. The algorithm will appear at your Processing Toolbox under the group: **Scripts → Line Analysis → Extract Curves and Centroids**.  
+
+---
+
+## 🖼️ Example
+
+**Script window:**  
+![Script window](images/ventana.png)
+
+**Resulting curves and centroids:**  
+![Example output](images/Ejemplo.png)
+
+---
+
 ## ✅ Typical Use Cases
 - Road safety studies: detecting tight bends.  
 - Geometric road design checks.  
 - Mapping and categorizing curvature for line-based infrastructures.  
-
----
-
-## 🚀 Installation
-1. Save the script file (e.g., `extraer_curvas_centroides.py`).  
-2. In QGIS:  
-   - Open **Processing Toolbox → Scripts → Tools → Add Script from File**.  
-   - Load the script into your QGIS environment.  
-3. The algorithm will appear under the group: **Análisis de línea → Extraer curvas y centroides**.  
 
 ---
 
@@ -84,6 +98,15 @@ If enabled, curve centers are also computed and then clustered based on proximit
 
 **Q: Can I adjust how many vertices are generated?**  
 - Yes, by changing the densification interval. Smaller values create more vertices and higher precision, but increase computation time.  
+
+---
+
+## ⚠️ Limitations
+- The algorithm assumes reasonably clean line geometries; noisy data may produce many false curves.  
+- Results depend heavily on the chosen densification interval. Too coarse → missed curves; too fine → excessive computation.  
+- The clustering method is purely distance-based; it does not account for curve orientation or road context.  
+- Nearly collinear triplets of points cannot generate valid radii (they are skipped).  
+- Designed for projected CRS in meters — using geographic CRS (lat/long) will give meaningless distances.  
 
 ---
 
