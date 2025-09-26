@@ -68,10 +68,10 @@ If enabled, curve centers are also computed and then clustered based on proximit
 ## 🖼️ Example
 
 **Script window:**  
-[Script window](https://github.com/Javisionario/Radios-de-curva/blob/images/Ventana.png)
+![Script window](https://github.com/Javisionario/Radios-de-curva/blob/images/Ventana.png)
 
 **Resulting curves and centroids:**  
-[Example output](https://github.com/Javisionario/Radios-de-curva/blob/images/Ejemplo.png)
+![Example output](https://github.com/Javisionario/Radios-de-curva/blob/images/Ejemplo.png)
 
 
 ---
