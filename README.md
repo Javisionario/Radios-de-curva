@@ -1,6 +1,5 @@
 # Extract Curves and Centroids (QGIS Processing Script)
 
-## 📌 Description
 This QGIS Processing script **extracts curve segments from a densified line layer**, calculates their radius of curvature, optionally groups nearby curve centers, and produces up to **two output layers**:
 
 **Resulting curves and centroids:**  
