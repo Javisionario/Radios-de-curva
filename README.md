@@ -107,3 +107,11 @@ If enabled, curve centers are also computed and then clustered based on proximit
 
 ## 📄 License
 This project is released under the **GNU General Public License v3.0**. Feel free to use, modify, and share.  
+
+---
+
+## 👤 Author
+
+- **Name:** Javi H. Piris  
+- **Email:** pirishj@gmail.com  
+- **GitHub:** [@tuusuario](https://github.com/Javisionario)
