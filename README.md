@@ -114,4 +114,4 @@ This project is released under the **GNU General Public License v3.0**. Feel fre
 
 - **Name:** Javi H. Piris  
 - **Email:** pirishj@gmail.com  
-- **GitHub:** [@tuusuario](https://github.com/Javisionario)
+- **GitHub:** [@Javisionario](https://github.com/Javisionario)
