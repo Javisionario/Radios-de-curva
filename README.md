@@ -58,7 +58,7 @@ If enabled, curve centers are also computed and then clustered based on proximit
 ---
 
 ## 🚀 Installation
-1. Save the script file (e.g., `extraer_curvas_centroides.py`).  
+1. Download the script file `Radios_curva.py`.  
 2. In QGIS:  
    - Open **Processing Toolbox → Scripts → Add Script to Toolbox**.  
    - Load the script into your QGIS environment.  
